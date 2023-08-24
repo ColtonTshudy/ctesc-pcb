@@ -1,0 +1,35 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 2674fd79-60c0-42e8-afa6-d007c89b811d)
+
+  (paper "A4")
+
+  (title_block
+    (date "2023-08-10")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 97.79 49.53) (size 36.83 81.28) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid bce45165-f47a-40a7-afb2-5b1d0d6eda3c)
+    (property "Sheetname" "Dev Board" (at 97.79 48.8184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "dev_board.kicad_sch" (at 97.79 131.3946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ctesc"
+        (path "/2674fd79-60c0-42e8-afa6-d007c89b811d" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
